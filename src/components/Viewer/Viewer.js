@@ -17,14 +17,14 @@
 /////////////////////////////////////////////////////////////////////////////////
 
 import React, { Component } from 'react';
-import Helpers from './Viewer-Helpers';
+import Helpers from '../ViewerHelpers';
 import './Viewer.css';
 
 class Viewer extends Component {
 
     componentDidMount() {
-        var documentId= 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dmlld2VyLXJvY2tzLXJlYWN0LzNkRmFjdG9yeS5kd2Y'; // YOU NEED YOUR MODEL URN.
-        Helpers.launchViewer('viewerDiv', documentId);        
+        var documentId= 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dmlld2VyLXJvY2tzLXJlYWN0L2RhdGFjZW50ZXIucnZ0'; // YOU NEED YOUR MODEL URN.
+        Helpers.launchViewer(documentId);        
     }
 
     render() {
@@ -32,7 +32,7 @@ class Viewer extends Component {
           <div>  
             <div id="viewerDiv" />
             <div className="forge-logo">
-                <img className="logo-size" src="images/forge-logo.png" alt="Autodesk Forge" /> // THIS IS WHERE YOUR LOGO CAN BE PLACE.
+                <img className="logo-size" src="images/forge-logo.png" alt="Autodesk Forge" /> 
             </div>
           </div>
         );
