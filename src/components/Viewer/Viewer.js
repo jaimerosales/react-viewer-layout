@@ -23,7 +23,7 @@ import './Viewer.css';
 class Viewer extends Component {
 
     componentDidMount() {
-        var documentId= 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dmlld2VyLXJvY2tzLXJlYWN0L2RhdGFjZW50ZXIucnZ0'; // YOU NEED YOUR MODEL URN.
+        var documentId= 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6amFpbWV3ZXN0b3JtLXR0Y29yZTcyYmRxdWJ4ZGVvdWJ3cWxlYXZoZG9ieGJjNGxoaGNzL1VyYmFuSG91c2UtMjAxNS5ydnQ'; // YOU NEED YOUR MODEL URN.
         Helpers.launchViewer(documentId);        
     }
 
